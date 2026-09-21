@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+venv/
+env/
+.venv/
+
+# Generated data (keep the repo small; enrolled images are personal data)
+database/*.pkl
+results/*.png
+results/*.md
+!results/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# scikit-learn dataset cache (downloaded by src/evaluate.py)
+scikit_learn_data/
